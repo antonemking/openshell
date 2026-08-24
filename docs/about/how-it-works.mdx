@@ -129,3 +129,9 @@ OpenShell integrates with infrastructure ecosystems instead of replacing them. R
 The gateway owns OpenShell control-plane semantics: sandbox state, lifecycle ordering, policy and settings resolution, credential mapping, authorization, inference configuration, and relay coordination. Drivers translate those semantics into platform-native operations.
 
 The supervisor owns OpenShell sandbox semantics. Filesystem policy, process privilege reduction, network proxying, inference interception, credential injection, security logging, and gateway relay behavior stay consistent across Docker, Podman, Kubernetes, VM-backed sandboxes, and future integrations.
+
+## Next Steps
+
+- To walk one model call from the agent to the upstream host, including the credential split, refer to [How OpenShell Isolates Agents and Model Calls](/about/secure-model-runtime).
+- To configure `inference.local`, refer to [Inference Routing](/sandboxes/inference-routing).
+- To review every tunable control, refer to [Security Best Practices](/security/best-practices).
