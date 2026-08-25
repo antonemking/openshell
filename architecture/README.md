@@ -157,7 +157,10 @@ unreachable until the supervisor reconnects and reconciles state.
 
 Architecture docs are short subsystem overviews. User-facing how-to content
 lives in `docs/`. Implementation notes that only matter to one crate belong in
-that crate's `README.md`.
+that crate's `README.md`. For a teaching walkthrough of one model call, the
+credential split, and how that isolation differs from a desktop cowork-style
+agent, start at
+[How OpenShell Isolates Agents and Model Calls](../docs/about/secure-model-runtime.mdx).
 
 | Document | Purpose |
 |---|---|
